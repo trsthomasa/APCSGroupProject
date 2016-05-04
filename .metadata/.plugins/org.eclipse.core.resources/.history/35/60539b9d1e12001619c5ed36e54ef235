@@ -1,0 +1,28 @@
+package mains;
+
+public class Checkers extends Pieces{
+	private boolean king;
+	private String color;
+	private String name;
+	
+	
+	public Checkers(){
+		king = false;
+		color = "red";
+		name = "checker";
+	}
+	
+	public Checkers(String col){
+		king = false;
+		color = col;
+		name = "checker";
+	}
+	public Checkers(String col, String nam){
+		king = false;
+		color = col;
+		name = nam;
+	}
+
+	
+	
+}
