@@ -1,5 +1,5 @@
 package mains;
 
-public class Pieces {
+public class Pieces{
 
 }
