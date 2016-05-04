@@ -2,6 +2,8 @@ package mains;
 
 public class Pieces implements Locatable{
 	private String name;
+	
+
 	private int x;
 	private int y;
 	

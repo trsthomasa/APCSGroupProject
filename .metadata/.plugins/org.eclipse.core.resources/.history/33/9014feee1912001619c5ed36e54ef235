@@ -1,0 +1,19 @@
+package mains;
+
+public class Pieces{
+	private int x;
+	private int y;
+	
+	public Pieces(){
+		x = 0;
+		y = 0;
+	}
+	
+	public Pieces(int x1, int y1){
+		x=x1;
+		y=y1;
+	}
+	
+	
+
+}
