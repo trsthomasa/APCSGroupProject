@@ -1,5 +1,46 @@
 package mains;
 
 public class Board {
-
+	private Pieces[][] pieces;
+	private int size;
+	
+	public Board(){
+		setSize(0);
+		pieces = new Pieces[size][size];
+		
+	}
+	public Board(int s){
+		setSize(s);
+		pieces = new Pieces[size][size];
+		
+	}
+	
+	
+	public void setSize(int s){
+		size=s;
+	}
+	public int getSize(){
+		return size;
+	}
+	
+	public String toString(){
+		
+		String out = "";
+		for(int r = 0; r < size; r++){
+			out+="\n";
+			for(int i = 0 ; i<size ; i++){
+				out+="_";
+			}
+			for(int c = 0 ; c< size ; c++){
+				
+				out+="| "+pieces[r][c].getName()+" ";
+				
+			}
+			
+		}
+		
+		return out;
+	}
+	
+	
 }
