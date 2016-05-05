@@ -16,13 +16,13 @@ public class Board {
 	}
 	
 	public void setPiece(int x, int y, Pieces piece ){
-		pieces[x][y]= piece;
+		pieces[y][x]= piece;
 	}
 	
 	
 	
 	public Pieces getPiece(int x, int y){
-		return pieces[x][y];
+		return pieces[y][x];
 	}
 	
 	
@@ -39,9 +39,6 @@ public class Board {
 	public String toString(){
 		
 		String out = "";
-		for(int i = 0 ; i<getSize(); i++){
-			out+="____";
-		}
 		for(int r = 0; r < getSize(); r++){
 			
 			
@@ -56,11 +53,10 @@ public class Board {
 				
 			
 			}
-			out+="|\n";
+			out+="\n";
 			for(int i = 0 ; i<getSize(); i++){
 				out+="|___";
 			}
-			out+="|";
 		}
 		
 		return out;

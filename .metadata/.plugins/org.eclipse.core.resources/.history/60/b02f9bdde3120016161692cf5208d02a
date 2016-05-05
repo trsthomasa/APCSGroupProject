@@ -4,10 +4,9 @@ public class Game {
 
 	public static void main(String[] args){
 		
-		CheckerBoard test = new CheckerBoard();
+		Board test = new CheckerBoard();
 		
 		test.setBoard();
-		System.out.println(test);
 		
 	}
 	

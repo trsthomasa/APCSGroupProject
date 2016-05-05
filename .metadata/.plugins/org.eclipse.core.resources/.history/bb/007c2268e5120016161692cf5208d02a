@@ -8,20 +8,13 @@ public class Pieces implements Locatable{
 	public Pieces(){
 		x = 0;
 		y = 0;
-		name = "";
 	}
 	
 	public Pieces(int x1, int y1){
 		x=x1;
 		y=y1;
-		name = "";
 	}
-	public Pieces(int x1, int y1, String n){
-		x=x1;
-		y=y1;
-		name = n;
-		
-	}
+
 	public int getX() {
 		return x;
 	}

@@ -1,0 +1,11 @@
+package mains;
+
+public class CheckerBoard extends Board{
+	private Pieces[][] pieces;
+	
+	public CheckerBoard(){
+		setSize(8);
+		pieces = new Checkers[getSize()][getSize()];
+	}
+	
+}

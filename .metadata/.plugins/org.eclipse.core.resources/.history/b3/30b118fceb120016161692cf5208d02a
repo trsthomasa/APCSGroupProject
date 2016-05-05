@@ -16,13 +16,13 @@ public class Board {
 	}
 	
 	public void setPiece(int x, int y, Pieces piece ){
-		pieces[x][y]= piece;
+		pieces[y][x]= piece;
 	}
 	
 	
 	
 	public Pieces getPiece(int x, int y){
-		return pieces[x][y];
+		return pieces[y][x];
 	}
 	
 	

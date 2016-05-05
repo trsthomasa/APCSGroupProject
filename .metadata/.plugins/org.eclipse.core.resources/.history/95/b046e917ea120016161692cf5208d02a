@@ -4,28 +4,25 @@ public class CheckerBoard extends Board{
 	
 	
 	public CheckerBoard(){
-		super(8);
-		
-		for(int r = 0; r< 8; r++){
+		setSize(8);
+		for(int r = 0; r< getSize(); r++){
 			
-			for(int c = 0; c<8;c++){
-				setPiece(r,c,new Checkers(r,c));
+			for(int c = 0; c<getSize();c++){
+				setPiece(r,c,new Pieces(r,c));
 				
 			}
 		}
 		
 	}
 	public void setBoard(){
-		int checkerr = 0;
-		
+		int checker = 0;
 		for(int r = 0; r< getSize(); r++){
-			checkerr++;
+			checker++;
 			for(int c = 0; c<getSize();c++){
 				
-				if((r+c)%2==1 && r!=3 && r!=4){
+				if(checker%2==1){
 					setPiece(r,c, new Checkers(r,c,"P","R"));
-				} 
-				
+				}
 				
 				
 				

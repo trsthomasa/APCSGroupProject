@@ -1,31 +1,21 @@
 package mains;
 
 public class CheckerBoard extends Board{
-	
+	private Pieces[][] pieces;
 	
 	public CheckerBoard(){
-		super(8);
-		
-		for(int r = 0; r< 8; r++){
-			
-			for(int c = 0; c<8;c++){
-				setPiece(r,c,new Checkers(r,c));
-				
-			}
-		}
-		
+		super.setSize(8);
+		pieces = new Checkers[getSize()][getSize()];
 	}
 	public void setBoard(){
-		int checkerr = 0;
-		
+		int checker = 0;
 		for(int r = 0; r< getSize(); r++){
-			checkerr++;
+			checker++;
 			for(int c = 0; c<getSize();c++){
 				
-				if((r+c)%2==1 && r!=3 && r!=4){
-					setPiece(r,c, new Checkers(r,c,"P","R"));
-				} 
-				
+				if(checker%2==1){
+					pieces[r][c] = new Checkers(r,c,"P","R");
+				}
 				
 				
 				
