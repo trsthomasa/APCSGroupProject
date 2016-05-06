@@ -49,22 +49,7 @@ public class Checkers extends Pieces{
 	public String getColor(){
 		return color;
 	}
-	@Override
-	public String toString() {
-		if(getColor() == "black" &&  king == true){
-			return "B";
-		}
-		else if(getColor() == "black" &&  king== false){
-			return "b";
-		}
-		else if(getColor() == "red" &&  king == true){
-			return "R";
-		}
-		else if(getColor() == "red" && !king == false){
-			return "r";
-		}
-		else{
-			return " ";
-		}
-	}
+
+	
+	
 }
