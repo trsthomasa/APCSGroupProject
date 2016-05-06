@@ -6,13 +6,13 @@ public class CheckerBoard extends Board{
 	public CheckerBoard(){
 		super(8);
 		
-//		for(int r = 0; r< 8; r++){
-//			
-//			for(int c = 0; c<8;c++){
-//				setPiece(r,c,new Checkers(r,c));
-//				
-//			}
-//		}
+		for(int r = 0; r< 8; r++){
+			
+			for(int c = 0; c<8;c++){
+				setPiece(r,c,new Checkers(r,c));
+				
+			}
+		}
 		
 	}
 	public void setBoard(){

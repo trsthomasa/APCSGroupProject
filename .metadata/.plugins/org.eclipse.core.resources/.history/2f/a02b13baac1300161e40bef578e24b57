@@ -47,12 +47,12 @@ public class Board {
 			
 			out+="\n";
 			
-			for(int c = 0 ; c< getSize() ; c++){ // This is where the pieces are drawn
+			for(int c = 0 ; c< getSize() ; c++){
 				
 				//out+=pieces.length;
 				if(pieces[r][c]==null){
-					
-					out+="|   ";
+					if(c!=0)
+					out+="|  ";
 				}else{
 				out+="| "+pieces[r][c].getName()+" ";
 				
