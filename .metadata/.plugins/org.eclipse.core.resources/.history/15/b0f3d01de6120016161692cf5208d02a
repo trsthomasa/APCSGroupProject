@@ -1,0 +1,14 @@
+package mains;
+
+public class Game {
+
+	public static void main(String[] args){
+		
+		Board test = new CheckerBoard();
+		
+		test.setBoard();
+		System.out.println(test);
+		
+	}
+	
+}

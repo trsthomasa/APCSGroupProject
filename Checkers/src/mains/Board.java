@@ -15,6 +15,17 @@ public class Board {
 		
 	}
 	
+	public void setPiece(int x, int y, Pieces piece ){
+		pieces[x][y]= piece;
+	}
+	
+	
+	
+	public Pieces getPiece(int x, int y){
+		return pieces[x][y];
+	}
+	
+	
 	
 	public void setSize(int s){
 		size=s;
@@ -23,24 +34,38 @@ public class Board {
 		return size;
 	}
 	
+	//public void setBoard(){};
+	
 	public String toString(){
 		
 		String out = "";
-		for(int r = 0; r < size; r++){
-			out+="\n";
-			for(int i = 0 ; i<size ; i++){
-				out+="_";
-			}
-			for(int c = 0 ; c< size ; c++){
-				
-				out+="| "+pieces[r][c].getName()+" ";
-				
-			}
+		for(int i = 0 ; i<getSize(); i++){
+			out+="____";
+		}
+		for(int r = 0; r < getSize(); r++){
 			
+			
+			out+="\n";
+			
+			for(int c = 0 ; c< getSize() ; c++){
+				
+				//out+=pieces.length;
+				out+="| "+pieces[r][c].getName()+" ";
+				if(pieces[r][c].getName()=="")
+					out+=" ";
+				
+			
+			}
+			out+="|\n";
+			for(int i = 0 ; i<getSize(); i++){
+				out+="|___";
+			}
+			out+="|";
 		}
 		
 		return out;
 	}
+	
 	
 	
 }

@@ -1,0 +1,29 @@
+package mains;
+
+public class CheckerBoard extends Board{
+	private Pieces[][] pieces;
+	
+	public CheckerBoard(){
+		setSize(8);
+		pieces = new Checkers[getSize()][getSize()];
+	}
+	public void setBoard(){
+		for(int r = 0; r< getSize(); r++){
+			for(int c = 0; c<getSize();c++){
+				
+				if(c+r%2==1){
+					pieces[r][c].setName("p");
+				}
+				else{
+					pieces[r][c].setName("");
+				}
+				
+			}
+		}
+	}
+	
+	
+	public String toString(){
+		return super.toString();
+	}
+}

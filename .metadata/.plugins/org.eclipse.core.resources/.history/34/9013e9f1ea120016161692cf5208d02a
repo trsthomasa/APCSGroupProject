@@ -1,0 +1,65 @@
+package mains;
+
+public class Board {
+	private Pieces[][] pieces;
+	private int size;
+	
+	public Board(){
+		setSize(0);
+		pieces = new Pieces[size][size];
+		
+	}
+	public Board(int s){
+		setSize(s);
+		pieces = new Pieces[size][size];
+		
+	}
+	
+	public void setPiece(int x, int y, Pieces piece ){
+		pieces[y][x]= piece;
+	}
+	
+	
+	
+	public Pieces getPiece(int x, int y){
+		return pieces[y][x];
+	}
+	
+	
+	
+	public void setSize(int s){
+		size=s;
+	}
+	public int getSize(){
+		return size;
+	}
+	
+	//public void setBoard(){};
+	
+	public String toString(){
+		
+		String out = "";
+		for(int r = 0; r < getSize(); r++){
+			for(int i = 0 ; i<getSize(); i++){
+				//out+="___";
+			}
+			out+="\n";
+			
+			for(int c = 0 ; c< getSize() ; c++){
+				
+				//out+=pieces.length;
+				out+="| "+pieces[r][c].getName()+" ";
+				if(pieces[r][c].getName()==""{)
+					out+=" ";
+				}
+				
+			}
+			
+		}
+		
+		return out;
+	}
+	
+	
+	
+}
