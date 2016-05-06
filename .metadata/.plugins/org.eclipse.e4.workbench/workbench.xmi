@@ -143,8 +143,18 @@
       <tags>View</tags>
       <tags>categoryTag:Help</tags>
     </sharedElements>
+<<<<<<< HEAD
     <sharedElements xsi:type="advanced:Area" xmi:id="_7IFcPBOpEea2UfkCv1Q18g" elementId="org.eclipse.ui.editorss" selectedElement="_7IFcPROpEea2UfkCv1Q18g">
       <children xsi:type="basic:PartStack" xmi:id="_7IFcPROpEea2UfkCv1Q18g" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_7IFcWBOpEea2UfkCv1Q18g">
+=======
+<<<<<<< HEAD
+    <sharedElements xsi:type="advanced:Area" xmi:id="_d-D9vBIXEeaaEvmtOKGtMg" elementId="org.eclipse.ui.editorss" selectedElement="_d-D9vRIXEeaaEvmtOKGtMg">
+      <children xsi:type="basic:PartStack" xmi:id="_d-D9vRIXEeaaEvmtOKGtMg" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_elc3MBIYEeaPkexmdBuVqw">
+=======
+    <sharedElements xsi:type="advanced:Area" xmi:id="_ITVtMxLsEeagS9fOUNdCiQ" elementId="org.eclipse.ui.editorss" selectedElement="_ITVtNBLsEeagS9fOUNdCiQ">
+      <children xsi:type="basic:PartStack" xmi:id="_ITVtNBLsEeagS9fOUNdCiQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_ITVtPxLsEeagS9fOUNdCiQ">
+>>>>>>> origin/master
+>>>>>>> origin/master
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
@@ -154,7 +164,14 @@
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
+<<<<<<< HEAD
           <menus xsi:type="menu:PopupMenu" xmi:id="_7IFcPxOpEea2UfkCv1Q18g" elementId="#CompilationUnitEditorContext">
+=======
+<<<<<<< HEAD
+          <menus xsi:type="menu:PopupMenu" xmi:id="_d-D9vxIXEeaaEvmtOKGtMg" elementId="#CompilationUnitEditorContext">
+=======
+          <menus xsi:type="menu:PopupMenu" xmi:id="_ITVtNhLsEeagS9fOUNdCiQ" elementId="#CompilationUnitEditorContext">
+>>>>>>> origin/master
             <tags>menuContribution:popup</tags>
             <tags>popup:#CompilationUnitEditorContext</tags>
             <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
@@ -182,17 +199,56 @@
             <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.RulerContext</tags>
             <tags>popup:#AbstractTextEditorRulerContext</tags>
           </menus>
+<<<<<<< HEAD
           <menus xsi:type="menu:PopupMenu" xmi:id="_7IFcRBOpEea2UfkCv1Q18g" elementId="#OverviewRulerContext">
+=======
+          <menus xsi:type="menu:PopupMenu" xmi:id="_ITVtOxLsEeagS9fOUNdCiQ" elementId="#OverviewRulerContext">
+            <tags>menuContribution:popup</tags>
+            <tags>popup:#OverviewRulerContext</tags>
+          </menus>
+          <menus xsi:type="menu:PopupMenu" xmi:id="_ITVtPBLsEeagS9fOUNdCiQ" elementId="#CompilationUnitEditorContext">
+>>>>>>> origin/master
+            <tags>menuContribution:popup</tags>
+            <tags>popup:#CompilationUnitEditorContext</tags>
+            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
+            <tags>popup:#AbstractTextEditorContext</tags>
+          </menus>
+          <menus xsi:type="menu:PopupMenu" xmi:id="_ITVtPRLsEeagS9fOUNdCiQ" elementId="#CompilationUnitRulerContext">
+            <tags>menuContribution:popup</tags>
+            <tags>popup:#CompilationUnitRulerContext</tags>
+            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.RulerContext</tags>
+            <tags>popup:#AbstractTextEditorRulerContext</tags>
+          </menus>
+          <menus xsi:type="menu:PopupMenu" xmi:id="_ITVtPhLsEeagS9fOUNdCiQ" elementId="#OverviewRulerContext">
+>>>>>>> origin/master
             <tags>menuContribution:popup</tags>
             <tags>popup:#OverviewRulerContext</tags>
           </menus>
         </children>
+<<<<<<< HEAD
         <children xsi:type="basic:Part" xmi:id="_7IFcRROpEea2UfkCv1Q18g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Checkers.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Checkers.java&quot; partName=&quot;Checkers.java&quot; title=&quot;Checkers.java&quot; tooltip=&quot;Checkers/src/mains/Checkers.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Checkers/src/mains/Checkers.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;732&quot; selectionTopPixel=&quot;418&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
           <menus xsi:type="menu:PopupMenu" xmi:id="_7IFcRhOpEea2UfkCv1Q18g" elementId="#CompilationUnitEditorContext">
+=======
+<<<<<<< HEAD
+        <children xsi:type="basic:Part" xmi:id="_elc3MBIYEeaPkexmdBuVqw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Checkers.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Checkers.java&quot; partName=&quot;Checkers.java&quot; title=&quot;Checkers.java&quot; tooltip=&quot;Checkers/src/mains/Checkers.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Checkers/src/mains/Checkers.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;494&quot; selectionTopPixel=&quot;60&quot;/>&#xD;&#xA;&lt;/editor>"/>
+=======
+        <children xsi:type="basic:Part" xmi:id="_ITVtPxLsEeagS9fOUNdCiQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Checkers.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Checkers.java&quot; partName=&quot;Checkers.java&quot; title=&quot;Checkers.java&quot; tooltip=&quot;Checkers/src/mains/Checkers.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Checkers/src/mains/Checkers.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;732&quot; selectionTopPixel=&quot;455&quot;/>&#xD;&#xA;&lt;/editor>"/>
+>>>>>>> origin/master
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+          <tags>active</tags>
+<<<<<<< HEAD
+          <tags>activeOnClose</tags>
+=======
+          <menus xsi:type="menu:PopupMenu" xmi:id="_ITVtQBLsEeagS9fOUNdCiQ" elementId="#CompilationUnitEditorContext">
+>>>>>>> origin/master
             <tags>menuContribution:popup</tags>
             <tags>popup:#CompilationUnitEditorContext</tags>
             <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
@@ -224,6 +280,7 @@
             <tags>menuContribution:popup</tags>
             <tags>popup:#OverviewRulerContext</tags>
           </menus>
+>>>>>>> origin/master
         </children>
         <children xsi:type="basic:Part" xmi:id="_7IFcTBOpEea2UfkCv1Q18g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Locatable.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Locatable.java&quot; partName=&quot;Locatable.java&quot; title=&quot;Locatable.java&quot; tooltip=&quot;Checkers/src/mains/Locatable.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Checkers/src/mains/Locatable.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;147&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
@@ -247,8 +304,17 @@
             <tags>popup:#OverviewRulerContext</tags>
           </menus>
         </children>
+<<<<<<< HEAD
         <children xsi:type="basic:Part" xmi:id="_7IFcUBOpEea2UfkCv1Q18g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Movable.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
+=======
+<<<<<<< HEAD
+        <children xsi:type="basic:Part" xmi:id="_YcVxoBIdEeaPkexmdBuVqw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Board.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Board.java&quot; partName=&quot;Board.java&quot; title=&quot;Board.java&quot; tooltip=&quot;Checkers/src/mains/Board.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Checkers/src/mains/Board.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;595&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+=======
+        <children xsi:type="basic:Part" xmi:id="_ITVtShLsEeagS9fOUNdCiQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Movable.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
+>>>>>>> origin/master
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Movable.java&quot; partName=&quot;Movable.java&quot; title=&quot;Movable.java&quot; tooltip=&quot;Checkers/src/mains/Movable.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Checkers/src/mains/Movable.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+>>>>>>> origin/master
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -514,7 +580,14 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_7IFcuBOpEea2UfkCv1Q18g" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
+<<<<<<< HEAD
         <children xsi:type="menu:DirectToolItem" xmi:id="_7IFcuROpEea2UfkCv1Q18g" elementId="new.group">
+=======
+<<<<<<< HEAD
+        <children xsi:type="menu:HandledToolItem" xmi:id="_9LHp5xIhEea-BslbPAB3pQ" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_d-EFoxIXEeaaEvmtOKGtMg"/>
+=======
+        <children xsi:type="menu:DirectToolItem" xmi:id="_ITVtsxLsEeagS9fOUNdCiQ" elementId="new.group">
+>>>>>>> origin/master
           <tags>Opaque</tags>
         </children>
         <children xsi:type="menu:DirectToolItem" xmi:id="_7IFcuhOpEea2UfkCv1Q18g" elementId="newWizardDropDown">
@@ -551,6 +624,7 @@
         <children xsi:type="menu:DirectToolItem" xmi:id="_7IFcxROpEea2UfkCv1Q18g" elementId="org.eclipse.wb.core.wizards.actions.NewDesignerTypeDropDownAction">
           <tags>Opaque</tags>
         </children>
+>>>>>>> origin/master
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_7IFcxhOpEea2UfkCv1Q18g" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -659,6 +733,10 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_7IFdCBOpEea2UfkCv1Q18g" elementId="org.eclipse.jdt.ui.CompilationUnitEditor" visible="false">
         <tags>Draggable</tags>
+<<<<<<< HEAD
+        <children xsi:type="menu:HandledToolItem" xmi:id="_9LNwiBIhEea-BslbPAB3pQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_d-EFHRIXEeaaEvmtOKGtMg"/>
+=======
+>>>>>>> origin/master
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_7IFdCROpEea2UfkCv1Q18g" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
