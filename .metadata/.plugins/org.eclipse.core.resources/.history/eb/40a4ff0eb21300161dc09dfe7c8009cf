@@ -51,16 +51,16 @@ public class Checkers extends Pieces{
 	}
 	@Override
 	public String toString() {
-		if(getColor() == "black" &&  king == true){
+		if(getColor() == "black" &&  king){
 			return "B";
 		}
-		else if(getColor() == "black" &&  king== false){
+		else if(getColor() == "black" &&  !king){
 			return "b";
 		}
-		else if(getColor() == "red" &&  king == true){
+		else if(getColor() == "red" &&  king){
 			return "R";
 		}
-		else if(getColor() == "red" && !king == false){
+		else if(getColor() == "red" && !king){
 			return "r";
 		}
 		else{
