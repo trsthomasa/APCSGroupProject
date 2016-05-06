@@ -3,59 +3,52 @@ package mains;
 public class Checkers extends Pieces{
 	private boolean king;
 	private String color;
-	private String name;
 	
-	
+		
 	public Checkers(){
+		super();
 		king = false;
-		color = "red";
-		name = "checker";
+		color = "N/A";
+		
+		
 	}
-	
-	public Checkers(String col){
+	public Checkers(int x, int y){
+		super(x,y);
 		king = false;
-		color = col;
-		name = "checker";
+		color = "N/A";
+		
+		
 	}
-	public Checkers(String col, String nam){
+	public Checkers(int x, int y, String n, String c){
+		super(x,y,n);
 		king = false;
-		color = col;
-		name = nam;
+		color = c;
+		
+		
 	}
-	
-	public Checkers(boolean tr){
-		king = tr;
-	}
-
-	public void move(int Dx, int Dy){
+	public Checkers(int x, int y, String n, String c, boolean k){
+		super(x,y,n);
+		king = k;
+		color = c;
 		
 		
 	}
 	
-	public boolean isKing() {
+	public void kingState(boolean k){
+		king = k;
+	}
+	
+	public boolean isKing(){
+		
 		return king;
 	}
-
-	public void setKing(boolean king) {
-		this.king = king;
+	
+	public void setColor(String c){
+		color = c;
 	}
-
-	public String getColor() {
+	public String getColor(){
 		return color;
 	}
-
-	public void setColor(String color) {
-		this.color = color;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-	
 
 	
 	
