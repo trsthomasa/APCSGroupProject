@@ -30,35 +30,11 @@ public class Game {
 				System.out.println("Black to Play, What is you move? :: ");
 				turnCheck=false;
 			}
-			
+			//row by column (y by x)
 			
 			Scanner movep = new Scanner( in.nextLine());
-			test.move(movep.nextInt(),movep.nextInt()-8, movep.nextInt(),movep.nextInt()-8);
+			test.move(movep.nextInt(),movep.nextInt(), movep.nextInt(),movep.nextInt());
 			
-			
-			
-			
-			
-				for(int c = 0; c<8;c++){
-					if(test.getPiece(0,c)!=null){
-						if(( (Checkers) test.getPiece(0,c)).isKing()==false)
-							((Checkers)test.getPiece(0,c)).kingState(true);
-						
-						
-						
-					}
-					if(test.getPiece(7,c)!=null){
-						if(( (Checkers) test.getPiece(7,c)).isKing()==false)
-							((Checkers)test.getPiece(0,c)).kingState(true);
-						
-							
-						
-						
-						
-					}
-				
-				
-			}
 			
 			
 			
