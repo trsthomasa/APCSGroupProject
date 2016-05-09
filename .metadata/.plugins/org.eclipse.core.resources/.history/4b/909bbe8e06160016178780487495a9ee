@@ -60,11 +60,11 @@ public class Checkers extends Pieces{
 		 if(this.getColor() == "red" &&  king == true){
 			return "R";
 		}
-		 if(this.getColor() == "red" && king == false){
+		 if(this.getColor() == "red" && !king == false){
 			return "r";
 		}
 		
-		return " ";
+			return  " ";
 		
 	}
 }

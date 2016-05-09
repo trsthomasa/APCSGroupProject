@@ -51,20 +51,20 @@ public class Checkers extends Pieces{
 	}
 	@Override
 	public String toString() {
-		if(this.getColor() == "black" &&  king == true){
+		if(getColor() == "black" &&  king == true){
 			return "B";
 		}
-		 if(this.getColor() == "black" &&  king== false){
+		 if(getColor() == "black" &&  king== false){
 			return "b";
 		}
-		 if(this.getColor() == "red" &&  king == true){
+		 if(getColor() == "red" &&  king == true){
 			return "R";
 		}
-		 if(this.getColor() == "red" && king == false){
+		 if(getColor() == "red" && !king == false){
 			return "r";
 		}
 		
-		return " ";
+			return " ";
 		
 	}
 }

@@ -64,7 +64,7 @@ public class Checkers extends Pieces{
 			return "r";
 		}
 		
-		return " ";
+		return "n";
 		
 	}
 }

@@ -52,7 +52,7 @@ public class Board {
 				//out+=pieces.length;
 				if(pieces[r][c]==null){
 					
-					out+="|   ";
+					out+="|  ";
 				}else{
 				out+="| "+(Checkers)pieces[r][c]+" ";
 				

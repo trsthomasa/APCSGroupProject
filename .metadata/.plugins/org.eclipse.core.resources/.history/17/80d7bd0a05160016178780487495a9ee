@@ -54,7 +54,7 @@ public class Board {
 					
 					out+="|   ";
 				}else{
-				out+="| "+(Checkers)pieces[r][c]+" ";
+				out+="| "+pieces[r][c]+" ";
 				
 				}
 			
