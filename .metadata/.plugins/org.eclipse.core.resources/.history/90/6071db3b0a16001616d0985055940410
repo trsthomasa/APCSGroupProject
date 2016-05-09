@@ -42,12 +42,6 @@ public class CheckerBoard extends Board{
 		//Checkers tru = new Checkers(getPiece(r1,c1).getX(), getPiece(r1,c1).getY(), getPiece(r1,c1).getName(), getPiece(r1,c1).kingState(), )
 		setPiece(r2,c2, moved);
 		setPiece(r1,c1, null);
-		if(r2 == 0 && moved.getColor()== "red"){
-			moved.kingState(true);
-		}
-		if(r2 == 7 && moved.getColor()== "black"){
-			moved.kingState(true);
-		}
 
 		
 	}
