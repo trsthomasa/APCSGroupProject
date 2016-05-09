@@ -22,12 +22,10 @@ public class CheckerBoard extends Board{
 			checkerr++;
 			for(int c = 0; c<getSize();c++){
 				
-				if((r+c)%2==1 && r<3){
-					setPiece(r,c, new Checkers(r,c,"P","black", false));
-				} 
-				if((r+c)%2==1 && r>4){
+				if((r+c)%2==1 && r!=3 && r!=4){
 					setPiece(r,c, new Checkers(r,c,"P","red", false));
-				}
+				} 
+				
 				
 				
 				

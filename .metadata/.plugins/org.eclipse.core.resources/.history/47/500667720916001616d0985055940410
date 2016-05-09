@@ -25,17 +25,42 @@ public class Game {
 			System.out.println("(Please write in the for \"x1 y1 x2 y2\" where the first set are the coords"
 					+ " \n of the piece you are moving and the second set is where they are going");
 			if(turnCheck==false){
-				System.out.println("Red to Play, What is your move? :: ");
+				System.out.println("Red to Play, What is you move? :: ");
 				turnCheck=true;
 			}else{
-				System.out.println("Black to Play, What is your move? :: ");
+				System.out.println("Black to Play, What is you move? :: ");
 				turnCheck=false;
 			}
 			
 			
 			Scanner movep = new Scanner( in.nextLine());
 			test.move(movep.nextInt()-1,8-movep.nextInt(), movep.nextInt()-1,8-movep.nextInt());
+			
+			
+			
+			
+			
+				for(int c = 0; c<8;c++){
+					if(test.getPiece(0,c)!=null){
+						if(( (Checkers) test.getPiece(0,c)).isKing()==false)
+							((Checkers)test.getPiece(0,c)).kingState(true);
 						
+						
+						
+					}
+					if(test.getPiece(7,c)!=null){
+						if(( (Checkers) test.getPiece(7,c)).isKing()==false)
+							((Checkers)test.getPiece(0,c)).kingState(true);
+						
+							
+						
+						
+						
+					}
+				
+				
+			}
+			
 			
 			
 		}
