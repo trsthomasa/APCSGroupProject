@@ -46,7 +46,7 @@ public class Game {
 			if(tY2- tY1==-2&& tX2-tX1==2){
 				System.out.println((tX1+1)+""+(tY1-1));
 				test.setPiece(tX1+1, tY1-1, null); //new Checkers(tX1+1, tY1-1,"p","black")
-				System.out.println(test.getPiece(tX1+1, tY1-1));							// The Y and X are backwards
+				System.out.println(test.getPiece(tX1+1, tY1-1));
 				System.out.println("Should be null");
 			}
 			
