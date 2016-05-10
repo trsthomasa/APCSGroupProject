@@ -25,8 +25,10 @@ public class CheckerBoard extends Board{
 				if((r+c)%2==1 && r<3){
 					setPiece(r,c, new Checkers(r,c,"P","black", false));
 				} 
-				if((r+c)%2==1 && r>4){
+				else if((r+c)%2==1 && r>4){
 					setPiece(r,c, new Checkers(r,c,"P","red", false));
+				} else{
+					setPiece(r,c, null);
 				}
 				
 				
@@ -40,8 +42,9 @@ public class CheckerBoard extends Board{
 		//Checkers[][] one = new Checkers[getSize()][getSize()];
 		Checkers moved = (Checkers)getPiece(r1,c1);
 		//Checkers tru = new Checkers(getPiece(r1,c1).getX(), getPiece(r1,c1).getY(), getPiece(r1,c1).getName(), getPiece(r1,c1).kingState(), )
-		setPiece(r2,c2, moved);
 		setPiece(r1,c1, null);
+		setPiece(r2,c2, moved);
+		
 		if(r2 == 0 && moved.getColor()== "red"){
 			moved.kingState(true);
 		}
